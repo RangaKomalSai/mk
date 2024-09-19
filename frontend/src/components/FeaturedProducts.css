@@ -1,0 +1,55 @@
+
+  .Division{
+    text-align: center;
+    padding: 50px 20px 50px 20px;
+    margin-bottom: 50px;
+   
+  }
+  .herosection {
+    position: relative;
+    background-image: url('../../public/Homepage.png'); /* replace with actual path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100%;
+   
+  }
+  .featured-products h2 {
+    margin-bottom: 10px;
+  }
+  
+  .featured-products p {
+    margin-bottom: 30px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .products {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+  

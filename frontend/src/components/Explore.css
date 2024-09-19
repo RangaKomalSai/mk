@@ -1,0 +1,33 @@
+.explore {
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.explore-grid {
+  display: flex;
+  justify-content: space-evenly;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.explore-grid::-webkit-scrollbar{
+  
+  display: none;
+
+}
+
+.explore-item {
+  display: inline;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  margin: 20px;
+  text-align: center;
+}
+
+.explore-item img {
+  width: 15rem;
+  height: 200px;
+  object-fit: cover;
+}

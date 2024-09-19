@@ -1,0 +1,75 @@
+.arc-of-rings {
+  text-align: center;
+  width: 100%;
+}
+
+.arc-grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.arc-grid::-webkit-scrollbar{
+  display: none;
+}
+
+.arc-item {
+  display: inline;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  margin: 20px;
+  text-align: center;
+}
+
+.arc-item img {
+  width: 20rem;
+  height: 200px;
+  object-fit: cover;
+}
+
+.shop-new-arrivals {
+  display: inline;
+  margin: 20px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #141414;
+}
+
+h4 {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #141414;
+}
+.arcOfRingsphoto {
+  margin-top: 20px;
+  background-image: url("../../public/images/arcofringphoto.jpg"); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}

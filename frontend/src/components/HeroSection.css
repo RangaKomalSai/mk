@@ -1,0 +1,17 @@
+.hero-section {
+    background-image: url('../../public/Homepage.png'); /* replace with actual path */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .hero-content h1 {
+    color: white;
+    font-size: 2.5em;
+  }
+  

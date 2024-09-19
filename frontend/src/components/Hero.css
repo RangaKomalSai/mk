@@ -1,0 +1,26 @@
+.hero {
+  background-image: url("../components/hero-image.jpg"); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero .hero-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.hero h1 {
+  font-size: 48px;
+}

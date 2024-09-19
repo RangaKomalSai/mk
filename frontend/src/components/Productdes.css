@@ -1,0 +1,58 @@
+.des{
+    display: flex;
+   margin-top: 2vh;
+   margin-left: 10vh;
+   margin-right: 0vh;
+   
+  justify-content: space-centre;
+  gap:3vw;
+  margin-bottom: 2vh;
+}
+/* .des img{
+    width
+} */
+.w{
+    display: flex;
+    justify-content: left;
+    gap:2vh;
+    flex-wrap: wrap;
+    margin-top: 4vh;
+}
+.productimg{
+    height: 40vh;
+    width:80vw;
+}
+.carat{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+   margin: 1vh;
+}
+.carat button{
+    height: 5vh;
+    width: 5vw;
+    border: 0.1px solid black;
+   border-radius: 5vh;
+   margin: 0.5vh;
+   transition: all 0.1s ease-in;
+   
+}
+.carat button:hover{
+    background-color: black;
+   color: white;
+}
+.w button{
+    height:5vh;
+    width: 10vw;
+    border-radius: 3vh;
+    border: 0.1px solid black;
+    background-color: black;
+   color: white;
+   transition: all 0.1s ease-in;
+}
+.w button:hover{
+    background-color: white;
+    color: black;
+   /* transform: translateX(0 100%); */
+}
+

@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    background: white;
+    
+    
+   margin: 16px;
+        overflow-x: hidden;
+
+    .Left{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+    .search{
+        display: flex;
+        gap:10px;
+        align-items: center;
+    }
+    .icon{
+        height: 15px;
+        width: 15px;
+    }
+  
+  }
+
+  .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: -50%;
+  
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+
+  }
+
+  

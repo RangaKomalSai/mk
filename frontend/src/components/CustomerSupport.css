@@ -1,0 +1,101 @@
+.customer-support {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10vh;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: small;
+    
+  }
+  #contact{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  }
+ #Logout{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  }
+
+  
+   #report{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  }
+  /* #contact:active{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  } */
+  #Logout:active{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  }
+
+  
+   #report:active{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  }
+  .user-info {
+    text-align: center;
+  }
+  .user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .user-info h2 {
+    margin: 10px 0;
+  }
+  
+  .support-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    width: 230px;
+    
+  }
+  
+  
+  .support-section button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .contact-info {
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    gap:4% 4%;
+    
+  }
+  #one,#two{
+    text-align: left;
+    flex-wrap: wrap;
+    max-width: 300px;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+    border-top:1px solid grey ;
+    
+  }
+  .left{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
