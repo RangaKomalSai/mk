@@ -1,0 +1,105 @@
+/* Styles for the reset password form */
+.resetpass-form {
+  background-color: #ffffff; /* Clean white background */
+  width: 100%;
+  max-width: 400px;
+  margin: 100px auto; /* Center the form vertically and horizontally */
+  padding: 40px; /* Increased padding for a more luxurious feel */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for elegance */
+  border-radius: 12px; /* Smooth rounded corners */
+  font-family: "Georgia", serif; /* Elegant serif font */
+  transition: transform 0.3s ease-in-out;
+}
+
+.resetpass-form:hover {
+  transform: translateY(-3px); /* Slight lift on hover for the form */
+}
+
+.resetpass-form h1 {
+  font-size: 28px; /* Slightly larger title */
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333; /* Darker text for contrast */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.resetpass-form p {
+  text-align: center;
+  color: #666; /* Softer gray for description */
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.resetpass-form input[type="email"],
+.resetpass-form input[type="password"],
+.resetpass-form input[type="number"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc; /* Softer border color */
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Light gray background */
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.resetpass-form input[type="email"]:focus,
+.resetpass-form input[type="password"]:focus,
+.resetpass-form input[type="number"]:focus {
+  border-color: #b8860b; /* Gold color for focus */
+  background-color: #ffffff; /* White background on focus */
+  box-shadow: 0 0 5px rgba(184, 134, 11, 0.3); /* Gold glow on focus */
+}
+
+.resetpass-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #333; /* Dark black button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.resetpass-form button:hover {
+  background-color: #555; /* Lighter gray on hover */
+}
+
+.resetpass-form button:active {
+  transform: scale(0.98); /* Button press effect */
+}
+
+.resetpass-form p {
+  font-size: 14px;
+}
+
+.resetpass-form p[style] {
+  font-weight: bold; /* Bold for error/success messages */
+}
+
+.resetpass-form p.error {
+  color: red; /* Red color for error message */
+}
+
+.resetpass-form p.success {
+  color: #b8860b; /* Gold color for success message */
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 500px) {
+  .resetpass-form {
+    padding: 25px; /* Adjusted padding for mobile */
+  }
+
+  .resetpass-form h1 {
+    font-size: 24px; /* Adjusted title size for mobile */
+  }
+}

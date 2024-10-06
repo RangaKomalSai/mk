@@ -1,5 +1,5 @@
 import express from "express";
-import { signupUser, loginUser } from "../controllers/UserController.js";
+import { signupUser, loginUser, reqeustOTP, verifyOTP } from "../controllers/UserController.js";
 
 const router = express.Router();
 
@@ -8,5 +8,13 @@ router.post("/signup", signupUser);
 
 // Route to login a user
 router.post("/login", loginUser);
+
+
+// Route to OTP Sending
+router.post("/reqeustOTP", reqeustOTP);
+
+
+//Route to OTP Verification
+router.post("/verifyOTP", verifyOTP);
 
 export default router;
