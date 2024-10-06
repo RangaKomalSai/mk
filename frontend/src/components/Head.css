@@ -60,6 +60,7 @@ input.search::placeholder {
   position: absolute;
   right: 50%;
   transform: translateX(50%);
+  bottom: 0px;
 }
 
 .header .sign-in {
@@ -145,7 +146,6 @@ input.search::placeholder {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-
 #menuToggle input:checked ~ ul {
   transform: none;
 }
@@ -184,53 +184,49 @@ nav {
   flex-direction: column;
   width: max-content;
   margin: -100px 0 0 -50px;
-  padding:50px;
+  padding: 50px;
   padding-top: 125px;
   justify-content: left;
   align-items: flex-start;
   height: 110vh;
-  background: #ededed ;
+  background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-   overflow : auto;
-   transform-origin:0% 0% ;
-   transform: translate(-100%, 0%);
-   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  overflow: auto;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0%);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
-#menu li{
+#menu li {
   padding: 10px 0;
   font-size: 22px;
-  
 }
 
-#menuToggle{
+#menuToggle {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: flex-start;
-  h4{
+  h4 {
     font-size: 2.5vh;
   }
-  h4:hover{
+  h4:hover {
     text-decoration: underline;
-    
-  
   }
-  .sub{
+  .sub {
     font-size: 2vh;
   }
- 
 }
-.line{
+.line {
   position: fixed;
   width: 35.5vh;
   height: 8vh;
   background: #ededed;
-  top: 0px; 
-  left: 1px; 
-
+  top: 0px;
+  left: 1px;
 }
-.service,.personalisation{
+.service,
+.personalisation {
   color: grey;
   font-size: smaller;
 }

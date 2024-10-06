@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Hono.css";
-import {Link as RouterLink } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 import love from '../assets/whislist.png';
 
 function Hono() {
@@ -38,7 +38,7 @@ function Hono() {
 
   return (
     <header className="header">
-       <div className="menu">
+      <div className="menu">
         <nav role="navigation">
           <div id="menuToggle">
             <input type="checkbox" />
@@ -48,13 +48,13 @@ function Hono() {
             <span></span>
             <ul id="menu">
               <div className="line"></div>
-      
+
               <RouterLink to="/Category">
-              <a onClick={closeMenu}>
-                <li><h4>Rings</h4></li>
+                <a onClick={closeMenu}>
+                  <li><h4>Rings</h4></li>
                 </a>
-                </RouterLink>
-                
+              </RouterLink>
+
               <a onClick={closeMenu}>
                 <li><h4>Necklace</h4></li>
               </a>
@@ -76,60 +76,60 @@ function Hono() {
               <h4>Services</h4>
               <p className="sub">Repairs</p>
               <div className=" service">
-              
-              <p >Free of cost</p>
-              <p>Terms:</p>
-              <p>Additional gold weight  </p>
-              <p>
-              billed at current market rate
-              </p>
+
+                <p >Free of cost</p>
+                <p>Terms:</p>
+                <p>Additional gold weight  </p>
+                <p>
+                  billed at current market rate
+                </p>
               </div>
               <p className="sub">Personalisation</p>
               <div className="personalisation">
-              <p> Contact Us on:</p>
-              <p>+91 8962675833</p>
+                <p> Contact Us on:</p>
+                <p>+91 8962675833</p>
               </div>
 
               <p className="sub">Art of Gifting</p>
-              
+
               <div className="personalisation">
-              <p> Contact Us on:</p>
-              <p>+91 8962675833</p>
+                <p> Contact Us on:</p>
+                <p>+91 8962675833</p>
               </div>
               <h4>Connect</h4>
               <p className="service" >Can we help you?</p>
-              
+
               <p className="service">+91 8963675833</p>
             </ul>
           </div>
         </nav>
         <div className="menu-text">Menu</div>
-      </div> 
+      </div>
       <button className="searchicon">
         <img src="images/searchicon.jpg" alt="search" />
         <input className="search" type="text" placeholder="Search" />
       </button>
       <div className="logo">
-      <RouterLink to="/Homepagel">
-      HARMAIG
-      </RouterLink>
+        <RouterLink to="/Homepagel">
+          HARMAIG
+        </RouterLink>
       </div>
       <div className="sign-in">
-      <RouterLink to="/Whislist">
-        <img src={love} alt="whilist" className="whi"></img>
-      </RouterLink>
-      <RouterLink to="/cart">
-        <img src="cart.png" alt="whilist" className="whislist"></img>
-      </RouterLink>
-      <RouterLink to="/order">
-        <img src="order.png" alt="whilist" className="order"></img>
+        <RouterLink to="/Whislist">
+          <img src={love} alt="whilist" className="whi"></img>
         </RouterLink>
-        
+        <RouterLink to="/cart">
+          <img src="cart.png" alt="whilist" className="whislist"></img>
+        </RouterLink>
+        <RouterLink to="/order">
+          <img src="order.png" alt="whilist" className="order"></img>
+        </RouterLink>
+
         <RouterLink to="/profile">
-        <img src="profile.png" alt="whilist" className="whislist"></img>
+          <img src="profile.png" alt="whilist" className="whislist"></img>
         </RouterLink>
       </div>
-    
+
     </header>
   );
 }

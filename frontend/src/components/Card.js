@@ -3,7 +3,7 @@ import "./Card.css";
 import { Link } from "react-router-dom";
 import love from '../assets/whislist.png';
 
-function Card( { product} ) {
+function Card({ product }) {
   return (
     <div className="arc-grid">
       <div className="arc-item">

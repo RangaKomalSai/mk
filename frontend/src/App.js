@@ -25,6 +25,7 @@ import Rings from "./pages/Rings.js";
 import Necklaces from "./pages/Necklaces.js";
 import Earrings from "./pages/Earrings.js";
 import Bracelets from "./pages/Bracelets.js";
+import ForgetPass from "./pages/ForgetPass.js";
 function App() {
   return (
     <Router>
@@ -49,6 +50,8 @@ function App() {
         <Route path="/order" element={<Order />}></Route>
         <Route path="/Category" element={<Category />}></Route>
         <Route path="/Buyp" element={<Buyp />}></Route>
+        <Route path="login/resetpassword" element={<ForgetPass />}></Route>
+
       </Routes>
     </Router>
   );

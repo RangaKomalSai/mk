@@ -86,7 +86,7 @@ function Log() {
               required
             />
           </div>
-          <a href="#">Forgot password?</a>
+          <Link to="resetpassword">Forgot password?</Link>
         </div>
       </div>
       <div className="bu">
@@ -124,9 +124,11 @@ function Log() {
           Continue with Apple
         </button>
       </div>
-      <button className="continue" type="submit">
-        Continue
-      </button>
+      <div className="submitBtn">
+        <button className="continue ml-0" type="submit">
+          Continue
+        </button>
+      </div>
     </form>
   );
 }

@@ -120,7 +120,9 @@ function Head() {
         <img src="images/searchicon.jpg" alt="search" />
         <input className="search" type="text" placeholder="Search" />
       </button>
-      <div className="logo">HARMAIG</div>
+      <RouterLink to="/">
+        <div className="logo">HARMAIG</div>
+      </RouterLink>
       <a className="sign-in">
         <RouterLink to="/login">Login</RouterLink>
         <RouterLink to="/signup">Sign up</RouterLink>{" "}

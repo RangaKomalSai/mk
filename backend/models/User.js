@@ -34,6 +34,7 @@ const UserSchema = new Schema(
       type: Boolean,
       default: false,
     },
+
   },
 
   { timestamps: true } // This will add createdAt and updatedAt timestamps automatically

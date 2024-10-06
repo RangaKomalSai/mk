@@ -10,14 +10,14 @@ const app = express();
 // Enable CORS for all routes
 app.use(cors());
 app.use(express.json());
- 
+
 // Use auth routes
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
 
 // Replace <username>, <password>, and <dbname> with your actual MongoDB Atlas credentials
 const uri =
-  "mongodb://localhost:27017/mk";  
+  "mongodb+srv://krishnagavali:fRieOSx03Td6uhSg@cluster0.4jqcu.mongodb.net/harmaig";
 
 mongoose
   .connect(uri)
